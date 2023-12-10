@@ -1,0 +1,88 @@
+/* mdhl.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   }
+   
+   header {
+    text-align: center;
+    padding: 15px 0;
+    background-color: cadetblue;
+    border: 1px solid;
+   }
+   
+   header h1,
+   header h2 {
+    margin: 0;
+    color: #220;
+    text-align: center;
+   }
+
+   header h1{
+    font-size: 50px;
+   }
+   
+   nav ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   nav ul li {
+    display: inline;
+    margin-right: 10px;
+   }
+   
+   nav ul li a {
+    text-decoration: none;
+    color: #220;
+    font-weight: 800;
+   }
+   
+   nav ul li a:hover {
+    text-decoration: underline;
+   }
+   #banner img{
+    display: none;
+    height: 150px;
+    align-items: center;
+   }
+   .section-main {
+    text-align: center;
+    padding: 20px 0;
+    background-image: url("../Images/design1_image1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   }
+   
+   .section-main img {
+    width: 200px;
+    height: auto;
+   }
+   
+   .main-details-det {
+    text-align: center;
+   }
+   
+   .main-details-det ul {
+    list-style-type: none;
+    margin: 0 400px;
+    padding: 0;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: cadetblue;
+   }
+   
+   .main-details-det h4 {
+    margin: 0;
+   }
+   
+   .main-details-det li {
+    margin-bottom: 5px;
+   }
+
+   .active{
+    color: #fff;
+   }
