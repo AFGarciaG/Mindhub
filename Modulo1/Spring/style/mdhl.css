@@ -2,7 +2,6 @@
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
 }
@@ -13,10 +12,11 @@ header {
   margin-bottom: 20px;
 }
 
-header img {
+header section img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: 0% 30%;
 }
 
 header h1 {
@@ -32,7 +32,7 @@ header h2 {
 }
 
 #banner {
-  width: 100%;
+  width: 100vw;
   height: 40vh;
   background-size: cover;
   border-top: 1px solid;
@@ -103,3 +103,101 @@ main {
 .main-details-det p {
   margin-bottom: 20px;
 }
+
+.section-info-table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-info{
+  padding: 0 340px;
+  height: 100%;
+}
+
+.section-info{
+  margin-bottom: 30px;
+  text-align: start;
+  
+}
+
+.section-info h2{
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.section-info p{
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+table {
+  width: 50vw;
+  border-collapse: collapse;
+  overflow: hidden;
+  
+}
+table th,
+table td {
+  border: none;
+  padding: 4px;
+  text-align: center;
+}
+table th {
+  background-color: #f2f2f2;
+}
+
+.main-info article{
+  margin: 30px 0;
+}
+
+.main-info article p span,
+footer p span
+{
+  font-weight: bold;
+}
+
+footer{
+  display: flex;
+  padding: 0 340px;
+  height: 100%;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.main-rules{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0 200px 100px 200px;
+}
+
+.main-rules h2{
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+.main-rules .none{
+  list-style: none;
+  text-indent: 25px;
+}
+
+.main-rules h3,
+.main-rules h4{
+  margin-top: 20px ;
+}
+
+li.mg-0{
+  margin: 0;
+}
+
