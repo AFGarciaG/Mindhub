@@ -1,8 +1,9 @@
 
 table {
     width: 50vw;
-    border-collapse: collapse;
     overflow: hidden;
+    border-radius: 4px;
+
   }
   table th,
   table td {
