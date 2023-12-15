@@ -146,6 +146,15 @@ table th {
   background-color: #f2f2f2;
 }
 
+table a{
+  text-decoration: none;
+  color: #000;
+}
+
+table iframe{
+  object-fit: contain;
+  width: 100%;
+}
 .main-info article {
   margin: 30px 0;
 }
