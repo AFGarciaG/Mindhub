@@ -104,40 +104,37 @@ main {
   margin-bottom: 20px;
 }
 
-.section-info-table{
+.section-info-table {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.main-info{
+.main-info {
   padding: 0 340px;
   height: 100%;
 }
 
-.section-info{
+.section-info {
   margin-bottom: 30px;
   text-align: start;
-  
 }
 
-.section-info h2{
+.section-info h2 {
   font-weight: 400;
   font-style: italic;
   margin-bottom: 10px;
 }
 
-.section-info p{
+.section-info p {
   font-style: italic;
   text-decoration: underline;
-
 }
 
 table {
   width: 50vw;
   border-collapse: collapse;
   overflow: hidden;
-  
 }
 table th,
 table td {
@@ -149,17 +146,16 @@ table th {
   background-color: #f2f2f2;
 }
 
-.main-info article{
+.main-info article {
   margin: 30px 0;
 }
 
 .main-info article p span,
-footer p span
-{
+footer p span {
   font-weight: bold;
 }
 
-footer{
+footer {
   display: flex;
   padding: 0 340px;
   height: 100%;
@@ -168,36 +164,152 @@ footer{
   justify-content: space-between;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #000;
 }
 
-
-.main-rules{
+.main-rules {
   display: flex;
   height: 100%;
   width: 100%;
   padding: 0 200px 100px 200px;
 }
 
-.main-rules h2{
+.main-rules h2 {
   text-align: center;
   margin-bottom: 80px;
   margin-top: 50px;
 }
 
-.main-rules .none{
+.main-rules .none {
   list-style: none;
   text-indent: 25px;
 }
 
 .main-rules h3,
-.main-rules h4{
-  margin-top: 20px ;
+.main-rules h4 {
+  margin-top: 20px;
 }
 
-li.mg-0{
+li.mg-0 {
   margin: 0;
 }
 
+/* REGISTRATION CSS */
+
+.main-form {
+  width: 100%;
+  height: 100%;
+  padding: 0 200px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-form form fieldset {
+  border: none;
+  margin-bottom: 20px;
+  color: #000;
+}
+.main-form form fieldset legend {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-form form fieldset input:enabled,
+.main-form form fieldset input:active {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+.main-info form fieldset label {
+  margin-left: 20px;
+}
+
+.main-form fieldset input#name {
+  margin: 10px;
+  width: 33%;
+}
+.main-form fieldset input#last_name {
+  width: 30%;
+  margin: 10px;
+}
+.main-form fieldset input#street_address {
+  width: 81%;
+  margin: 10px;
+}
+
+.main-form fieldset input#city {
+  width: 48%;
+  margin: 10px;
+}
+.main-form fieldset input#zip_code {
+  width: 30.5%;
+  margin: 10px;
+}
+
+.main-form fieldset input#birth_day {
+  margin: 10px 10px 10px 10px;
+  width: 30%;
+}
+
+.main-form form fieldset input#gender-female,
+.main-form form fieldset input#gender-male {
+  margin: 5px;
+}
+
+.radio-1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.school label {
+  display: inline-block;
+  width: 200px;
+  margin-right: 50px;
+}
+
+.position-player label {
+  display: inline-block;
+  width: 200px;
+  margin-right: 50px;
+}
+
+.size-player label {
+  display: inline-block;
+  width: 200px;
+  margin-right: 50px;
+}
+
+.main-form form fieldset input#permission {
+  width: 40%;
+}
+
+.main-form fieldset p {
+  margin-bottom: 20px;
+}
+
+.main-form form fieldset.submit {
+  display: flex;
+}
+
+.main-form form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #089;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.main-form form button:hover {
+  box-shadow: 0 0 1px #000;
+  font-weight: 700;
+  color: #000;
+}
